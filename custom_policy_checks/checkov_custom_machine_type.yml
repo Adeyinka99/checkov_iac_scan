@@ -1,0 +1,12 @@
+metadata:
+ name: "Ensure compute instances are created not as f1-micro machine type"
+ id: "CKV_LG_0002"
+ category: "COMPUTE INSTANCE"
+definition:
+ or:
+ - cond_type: "attribute"
+   resource_types:
+   - "google_compute_instance"
+   attribute: "machine_type"
+   operator: "not_equals"
+   value: "f1-micro"
