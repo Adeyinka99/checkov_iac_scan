@@ -7,6 +7,6 @@ definition:
  - cond_type: "attribute"
    resource_types:
    - "google_compute_instance"
-   attribute: "machine_type"
+   attribute: "zone"
    operator: "not_equals"
-   value: "f1-micro"
+   value: "us-central1-c"
