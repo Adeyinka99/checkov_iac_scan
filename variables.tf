@@ -43,3 +43,8 @@ variable "storage_class" {
   type        = string
   description = "The storage class of the Storage Bucket to create"
 }
+# Source repo to be scanned
+variable "repo_url" {
+  type        = string
+  description = "The url to the repository to be scanned"
+}
