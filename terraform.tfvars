@@ -10,4 +10,4 @@ gcp_network = "default"
 # Bucket
 bucket-name   = "fpw-global-gsb" 
 storage-class = "REGIONAL"
-repo_url = "https://github.com/Adeyinka99/checkov_iac_scan.git"
+repo_url = "https://github.com/Adeyinka99/checkov_iac_scan.git//custom_policy_checks"
